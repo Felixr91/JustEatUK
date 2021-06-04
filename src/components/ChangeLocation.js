@@ -21,15 +21,15 @@ const ChangeLocation = ({ onUpdate }) => {
 
     return (
 
-        <div className="container">
 
-            <form className="change-location" onSubmit={onSubmit}>
-                <label className="location-label">Enter A UK Postcode</label>
-                <input className="location-field" value={postcode} onChange={(e) => setPostcode(e.target.value)}></input>
-                <input type="submit" value="GO" className="btn"></input>
-            </form>
 
-        </div>
+        <form className="change-location" onSubmit={onSubmit}>
+            <label className="location-label">Enter A UK Postcode</label>
+            <input className="location-field" value={postcode} onChange={(e) => setPostcode(e.target.value)}></input>
+            <input type="submit" value="GO" className="btn"></input>
+        </form>
+
+
 
     );
 

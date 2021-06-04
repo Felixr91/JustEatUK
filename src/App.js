@@ -42,18 +42,18 @@ const App = () => {
   const paginate = pageNumber => setCurrentPage(pageNumber)
 
   return (
-    <div>
-      <div className="container">
 
-        <h1 className="mt-5">Restaurant Search</h1>
+    <div className="container">
 
-        <ChangeLocation onUpdate={updateLocal}></ChangeLocation>
+      <h1 className="mt-5">Restaurant Search</h1>
 
-        <Restaurants restaurants={currentPosts} loading={loading} />
-        <Pagination postsPerPage={postsPerPage} totalPosts={restaurants.length} paginate={paginate} />
+      <ChangeLocation onUpdate={updateLocal}></ChangeLocation>
 
-      </div>
+      <Restaurants restaurants={currentPosts} loading={loading} />
+      <Pagination postsPerPage={postsPerPage} totalPosts={restaurants.length} paginate={paginate} />
+
     </div>
+
 
   );
 }
