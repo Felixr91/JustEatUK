@@ -1,6 +1,6 @@
 # Search Restaurants by UK outcode
 
-Simply enter an outcode and paginate through restaurants in the area. 
+Enter an outcode and paginate through restaurants in the area. 
 
 Application displays the name, rating, and type of cuisine for each restaurant.
 
